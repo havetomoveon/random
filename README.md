@@ -1,5 +1,5 @@
-# randomPy
-different solutions to generate random numbers
+# random
+Different solutions to generate random numbers
 # rand(10,100,20)
 [40, 21, 24, 96, 96, 36, 40, 98, 96, 63, 27, 84, 42, 96, 24, 72, 27, 56, 96, 56]
 # rand(0,1000,20)

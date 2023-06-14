@@ -1,5 +1,5 @@
 import time 
-def rand(low , hi, size):
+def rand(f , s, size):
     retList = []
     numLoop = 0
     
@@ -14,7 +14,7 @@ def rand(low , hi, size):
             num = 0
             final_str += str (int(second) - int(first))
         fIndex = 0
-        sIndex = len(str(hi))
+        sIndex = len(str(s))
         while True:
             num = 1
             for i in final_str[fIndex:sIndex]:
@@ -30,7 +30,7 @@ def rand(low , hi, size):
             sIndex += 1
             if sIndex > len(final_str):
                 break
-        for i in reversed(range(low,hi)):
+        for i in reversed(range(f,s)):
             if i in final:
                 retList.append(i)
                 if len(retList) == size:

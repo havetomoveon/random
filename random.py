@@ -36,4 +36,3 @@ def rand(low , hi, size):
                 if len(retList) == size:
                     return retList
         numLoop += 1
-print(rand(10,100,20))
